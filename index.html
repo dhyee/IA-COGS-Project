@@ -8,9 +8,6 @@
         <meta charset="utf-8">
         <meta name="author" content="Donna Yee, Christine Do, Andrei Anashkin">
         <meta name="description" content="A Redesign of the University of Leicester Site">
-        
-        <script src="bootstrap.js"></script>
-        <script src="jquery-1.11.1.js"></script>
     </head>
     
     <body>
@@ -26,10 +23,8 @@
             </div>
             
             <form>
-                <span class = "arrow">
-                    <input class = "searchButton" type = "button" value= "Search">
-                </span>
-                    <input class = "searchText" type = "text" placeholder="Search..." required>
+                <input class = "searchButton" type = "button" value= "Search">
+                <input class = "searchText" type = "text" placeholder="Search..." required>
             </form>
             
             <div id = "otherLinks">
@@ -53,12 +48,12 @@
         
         
         <!-- **************************  NEW CAROUSEL  ************************** -->
-        <div id = "carouselContainer" data-ride = "carousel">
-  <!-- Indicators -->
+        <div id = "carouselContainer" class = "carousel slide" data-ride = "carousel" data-interval = "false">
+            <!-- Indicators -->
             <ol class="carousel-indicators">
             <li data-target="#carouselContainer" data-slide-to="0" class="active"></li>
             <li data-target="#carouselContainer" data-slide-to="1"></li>
-            <li data-target="#carouselContaner" data-slide-to="2"></li>
+            <li data-target="#carouselContainer" data-slide-to="2"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -68,6 +63,9 @@
                 </div>
                 <div class="item">
                     <img src="img/carousel3.jpg" alt="x">
+                </div>
+                <div class="item">
+                    <img src="img/carousel1.jpg" alt="x">
                 </div>
             </div>
 
@@ -94,6 +92,15 @@
             <p id = "copyright">&copy; 2014 Donna Yee, Christine Do, Andrei Anashkin</p>
         </div>
     </div>
+    
+    <!-- Javascript placed at the end of HTML file for performance reasons -->    
+    <script src="javascript/jquery-1.11.1.js"></script>
+    <script src="javascript/bootstrap.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel();
+        });
+    </script>
     </body>
     
 </html>
