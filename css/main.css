@@ -5,17 +5,18 @@ body{
     margin: 0px;
     height: 100%;
     width: 100%;
+    font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
 #container{
     height: inherit;
     width: inherit;
-    font-family: sans-serif;
     letter-spacing: 1px;
 }
 
 a{
     text-decoration: none;
+    font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
 }
 
 .clear{
@@ -28,8 +29,9 @@ a{
     position: relative;
     width: 100%;
     margin: 0px auto;
-    height: 35px;
-    background-color: #343436;
+    height: 33px;
+    background-color: #595850;
+    background-image: linear-gradient(#333 0%, #2B2B2B 100%);
 }
 
 #userType{
@@ -73,10 +75,11 @@ a{
 
 .utWords, .otWords{
     color: #fff;
-    font-weight: bold;
+    font-weight: 300;
     padding-right: 23px;
     padding-left: 23px;
-    font-size: 1.0em;
+    font-size: 14px;
+    font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
 }
 
 a.utWords:link, a.otWords:link{
@@ -89,16 +92,18 @@ a.utWords:visited, a.otWords:visited{
 
 a.utWords:hover, a.otWords:hover{
     text-decoration: none;
-    color: #5dc8a0;
+    color: #0DA2DA;
 }
 /****************************** Logo & Main Nav ****************************/
 
 #logoContainer{
     position: relative;
     width: inherit;
-    height: 270px;
+    height: 250px;
     text-align: center;
-    background-color: #123;
+    background-color: #1B2A48;
+    background-image: linear-gradient(#2a4375 0%, #1B2A48 100%);
+    border-top: 1px solid #2E497F;
 }
 
 #logo{
@@ -114,10 +119,11 @@ a.utWords:hover, a.otWords:hover{
 
 .mainLinks{
     color: #fff;
-    font-weight: bold;
+    font-weight: 300;
     padding-right: 25px;
     padding-left: 25px;
-    font-size: 2em;
+    font-size: 18px;
+    font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
 }
 
 a.mainLinks:link{
@@ -130,7 +136,7 @@ a.mainLinks:visited{
 
 a.mainLinks:hover{
     text-decoration: none;
-    color: #5dc8a0;
+    color: #0DA2DA;
 }
 
 /****************************** Title Image ***********************************/

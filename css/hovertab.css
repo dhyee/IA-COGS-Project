@@ -3,7 +3,9 @@
     height: 300px;
     position: relative;
 	overflow: hidden;
+    line-height: 260%;
 }
+
 .tabs-content {
 	height: 260px;
     width: 100%;
@@ -15,7 +17,7 @@
 }
 
 .tabs {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #182540;
 	overflow: hidden;
 }
 
