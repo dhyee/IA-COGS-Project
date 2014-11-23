@@ -1418,6 +1418,8 @@ pre code {
   margin-left: auto;
 }
 .row {
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -1774,6 +1776,8 @@ pre code {
   }
   .col-md-3 {
     width: 25%;
+    padding-right: 40px;
+    padding-left: 40px;
   }
   .col-md-2 {
     width: 16.66666667%;
