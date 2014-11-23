@@ -2358,7 +2358,7 @@ output {
   display: block;
   width: 100%;
   height: 34px;
-  padding: 6px 12px;
+  padding: 12px 12px;
   font-size: 14px;
   line-height: 1.42857143;
   color: #555;
@@ -2726,7 +2726,7 @@ select[multiple].input-lg {
 }
 .btn {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 2px 12px;
   margin-bottom: 0;
   font-size: 14px;
   font-weight: normal;
@@ -3440,6 +3440,7 @@ tbody.collapse.in {
   float: left;
   width: 100%;
   margin-bottom: 0;
+  height: 25px;
 }
 .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
@@ -3558,6 +3559,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   font-size: 0;
   white-space: nowrap;
+  height: 25px;
 }
 .input-group-btn > .btn {
   position: relative;

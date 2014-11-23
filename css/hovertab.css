@@ -7,7 +7,7 @@
 }
 
 .tabs-content {
-	height: 260px;
+    height: 260px;
     width: 100%;
     background-color: #fff;
 	overflow: hidden;
@@ -26,6 +26,10 @@
 	padding: 10px 25px 10px 25px; 
 	position: relative;
 	overflow: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 .tabs a:after {
@@ -44,7 +48,7 @@
 }
 
 .tabs-content:hover{
-	display: block;
+    display: block;
     z-index: 5000;
 }
 
