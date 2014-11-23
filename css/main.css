@@ -142,12 +142,6 @@ a.mainLinks:hover, a.otWords:hover{
     background-color: #ccc;
 }
 
-.carouselImg{
-    width: inherit;
-    max-height: 500px;
-    position: absolute;
-}
-
 .verticalCenterTitle{
     margin-right: -15px;
     margin-left: -15px;
