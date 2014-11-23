@@ -1,0 +1,80 @@
+#tabs {
+    vertical-align: bottom;
+    height: 300px;
+    position: relative;
+	overflow: hidden;
+}
+.tabs-content {
+	height: 260px;
+    width: 100%;
+    background-color: #fff;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	display: none;
+}
+
+.tabs {
+    border-top: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.tabs a {
+    text-align: center;
+	padding: 10px 25px 10px 25px; 
+	position: relative;
+	overflow: hidden;
+}
+
+.tabs a:after {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	width: 21px; 
+	text-align: center; 
+	margin: 10px 10px 5px 0; 
+	color: #ffffff;
+}
+
+.tabs a:hover + .tabs-content {
+	display: block;
+    z-index: 5000;
+}
+
+.tabs-content:hover{
+	display: block;
+    z-index: 5000;
+}
+
+.tabsContainer{
+    padding-top: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: inherit;
+}
+
+.bottomCrumb{
+    position: absolute;
+    width: inherit;
+    bottom: 0;
+    height: 35px;
+    background-color: #555;
+}
+
+.crumb{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.leftImg{
+    float: right;
+    padding-right: 20px;
+}
+
+.leftLinks{
+    font-size: 1.5em;
+    padding-top: 20px;
+    height: inherit;
+    text-align: left;
+}
