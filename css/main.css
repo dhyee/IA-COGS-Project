@@ -506,9 +506,35 @@ hr.style-one {
     margin-left: 50px;
 }
 
-#subItem{
-    padding-left: 50px;
+.subItem{
+    color: #333;
     background-color: #efefef;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    padding: 10px 5px 10px 50px;
+    margin-bottom: -1px;
+    width: 250px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
+}
+
+a.subItem:link, a.subItem:visited{
+}
+
+a.subItem:hover{
+    color: #fff;
+    background-color: #5bc0de;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    padding: 10px 5px;
+    margin-bottom: -1px;
+    width: 250px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
 }
 
 #activeLink{
