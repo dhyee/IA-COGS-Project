@@ -226,7 +226,8 @@ a.mainLinks:hover{
 #moreHeadlines{
     background-color: #fff;
     padding: 10px 10px 10px 10px;
-    height: 605px;
+    height: 666px;
+    box-shadow: 1px 1px 5px #333;
 }
 
 .readMore{
@@ -244,6 +245,7 @@ a.mainLinks:hover{
     position: relative;
     height: 300px;
     width: 100%;
+    border-top: 5px solid #c9c9c9;
 }
 
 #eventsTitle{
