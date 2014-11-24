@@ -11,7 +11,7 @@
         <meta name="description" content="A Redesign of the University of Leicester Site">
         
         <!-- fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300|Pontano+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300%7CPontano+Sans' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     </head>
     
@@ -31,7 +31,7 @@
                 <input class = "searchButton" type = "button" value= "Search">
                 <input class = "searchText" type = "text" placeholder="Search..." required>
             </form> -->
-            <form action="" class="navbar-form navbar-right">
+            <form action="search.html" class="navbar-form navbar-right">
                <div class="input-group">
                    <input type="Search" placeholder="Search the website" class="form-control" />
                    <div class="input-group-btn">
@@ -53,7 +53,7 @@
         
         <!-- **************************  LOGO AND MAIN NAV  ************************** -->
         <div id = "logoContainer">
-            <img id = "logo" src="img/logo.png" alt="x"><br>
+            <a href="index.html"><img id = "logo" src="img/logo.png" alt="x"></a><br>
                 <div id="tabs">
 	               <nav class="tabs">
 		              <a class = "mainLinks" href= "about.html">About</a>
@@ -153,36 +153,50 @@
             <div class = "textContainer">
                 <span class = "title">News</span>
                 <span class = "subtitle">All News</span>
-                <div class = "row">
+                <div class = "container-fluid">
                     <div class="col-md-3">
-                        <img src="img/about.png" alt="x">
                         <div class="row">
-                            <p class="newsDesc">
-                                asdfsag
-                            </p>
+                            <img class="newsImg" src="img/news1.jpg" alt="x">
+                        </div>
+                        <div class="row">
+                            <div class="newsDesc">
+                                <h3>Iron Age Chariot Remains </h3>
+                                University of Leicester archaeologists discover bronze remains of Iron Age Chariot. A team of archaelogists have unconvered a matching set of decorated bronze parts from a 2nd/3rd century BC Celtic chariot at Burrough Hill Iron Age hillfort.
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <img src="img/about.png" alt="x">
                         <div class="row">
-                            <p class="newsDesc">
-                                asdfsag
-                            </p>
+                            <img class="newsImg" src="img/news2.jpg" alt="x">
+                        </div>
+                        <div class="row">
+                            <div class="newsDesc">
+                                <h3>King Richard III's Death</h3>
+                                Most likely cause of King Richard III's death identified. New research led by Leicester scientists gives a blow-by-blow account of the injuries inflicted on King Richard III's body at the Battle of Bosworth Field on 22 August, 1485.
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <img src="img/about.png" alt="x">
                         <div class="row">
-                            <p class="newsDesc">
-                                asdfsag
-                            </p>
+                            <img class="newsImg" src="img/news3.jpg" alt="x">
+                        </div>
+                        <div class="row">
+                            <div class="newsDesc">
+                                <h3>New App Launch</h3>
+                                New apps reveal hidden stories of Leicester's Cultural Quarter. University-based research project celebrates public launch event on Thursday November 27. These apps use the latest locative technology to deliver an immersive experience for visitors to the Cultural Quarter in Leicester. 
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-3">
-                            <p class="newsDesc">
-                                asdfsag
-                            </p>
-                        </div>
+                            <div id="moreHeadlines">
+                                <h3>More Headlines</h3>
+                                <ul>
+                                    <li><span class="glyphicon glyphicon-play"></span> 50% Discount on Tuition Fees for Postgraduate Taught Courses</li>
+                                    <li><span class="glyphicon glyphicon-play"></span> The Petal and the Wire' brings the voices of Leicester WWI veterans to life</li>
+                                    <li><span class="glyphicon glyphicon-play"></span> National Centre for Earth Observation receives 23m investment for world-class environmental science</li>
+                                    <li><span class="glyphicon glyphicon-play"></span> First potential direct detection of Dark Matter revealed</li>
+                                </ul>
+                            </div>
                     </div>
                 </div>
             </div>
