@@ -4296,10 +4296,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
 }
 .breadcrumb {
-  padding: 8px 15px;
+  padding: 0px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #f5f5f5;
 }
 .breadcrumb > li {
   display: inline-block;
@@ -4825,15 +4824,16 @@ a.thumbnail.active {
 .list-group {
   width: 15%
   display: block-inline;
-  border-top: 2px solid black;
+  border-top: 3px solid black;
   float: left;
   padding-left: 0;
-  margin-bottom: 20px;
+  text-align: left;
+  padding-right: 
 }
 .list-group-item {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 50px;
   margin-bottom: -1px;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -4859,9 +4859,9 @@ a.list-group-item .list-group-item-heading {
 }
 a.list-group-item:hover,
 a.list-group-item:focus {
-  color: #555;
+  color: #fff;
   text-decoration: none;
-  background-color: #f5f5f5;
+  background-color: #5bc0de;
 }
 .list-group-item.disabled,
 .list-group-item.disabled:hover,

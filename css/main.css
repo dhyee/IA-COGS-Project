@@ -397,6 +397,9 @@ span.createtext {
 .secHeader{
 	height: 250px;
 	width: 100%;
+    background-image: url(../img/aboutHeader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #secContainer {
@@ -422,7 +425,9 @@ hr.style-one {
 
 .subMain {
 	float: right;
-	width: 80%;
+    width: 75%;
+    margin-left: 2em; 
+    margin-right: 2em;
 	display: block-inline;
 }
 
