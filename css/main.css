@@ -289,25 +289,31 @@ div.dropshadow {
 }
 
 .month{
-    font-size: 24px;
+    font-size: 21px;
     font-family: 'Open Sans', Helvetica, sans-serif;
-    font-weight: 600;
-    background-color: #fff;
-    padding: 0px 30px 5px 30px;
-    margin-top: 10px;
+    font-weight: 300;
+    color: #fff;
+    background-color: #5bc0de;
+    padding: 5px 15px;
+    margin-top: 5px;
     margin-right: 10px;
-    border: 1px solid #000;
+    border: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .date{
-    font-size: 24px;
+    font-size: 21px;
     font-family: 'Open Sans', Helvetica, sans-serif;
-    font-weight: 600;
-    background-color: #ccc;
-    padding: 0px 44px 15px 43px;
+    font-weight: 300;
+    color: #fff;
+    background-color: #1B2A48;
+    padding: 5px 25px;
     margin-top: 5px;
     margin-right: 10px;
-    border: 1px solid #000;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 /********************************** Footer ************************************/
