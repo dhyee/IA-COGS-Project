@@ -224,7 +224,7 @@ a.mainLinks:hover{
 #moreHeadlines{
     background-color: #fff;
     padding: 10px 10px 10px 10px;
-    height: 666px;
+    height: 613px;
     box-shadow: 1px 1px 5px #333;
 }
 
@@ -235,11 +235,12 @@ a.mainLinks:hover{
     padding: 10px 10px 10px 10px;
 }
 
-.readMore{
+span.readMore{
     overflow: hidden;
     background-color: #fff;
     width: 100%;
-    padding: 10px 10px 10px 10px;
+    padding: 0px 0px 0px 0px;
+    float: right;
 }
 
 /****************************** Events Home *******************************/
