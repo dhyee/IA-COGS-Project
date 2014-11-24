@@ -5720,6 +5720,7 @@ button.close {
 }
 .carousel {
   position: relative;
+  border-bottom: 5px solid #c9c9c9;
 }
 .carousel-inner {
   position: relative;
