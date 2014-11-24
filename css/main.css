@@ -491,21 +491,14 @@ hr.style-one {
     height: 2px;
     background-color: #1B2A48;
 }
-
-<<<<<<< HEAD
-.secMain {
-	float: right;
-	width: 75%;
-	display: block-inline;
-=======
+    
 .subMain {
     clear: right;
     margin-left: 21em;
     margin-right: 3em;
->>>>>>> 485eac8a6ea0227ca02b0a3bc2317aebed14c600
 }
 
-.secMain img {
+.subMain img {
 	width: 100%;
 }
 
