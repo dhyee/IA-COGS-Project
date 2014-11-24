@@ -188,11 +188,6 @@ a.mainLinks:hover{
     background-size: contain;
 }
 
-/*#news{
-    padding-top: 40px;
-    background-color: rgba(27,42,72,.7);
-}*/
-
 .textContainer{
     margin-left: 10%;
     margin-right: 10%;
@@ -217,7 +212,7 @@ a.mainLinks:hover{
 }
 
 .newsDesc{
-    min-height: 300px;
+    min-height: 250px;
     background-color: #fff;
     padding: 10px 10px 10px 10px;
 }
@@ -230,6 +225,13 @@ a.mainLinks:hover{
     background-color: #fff;
     padding: 10px 10px 10px 10px;
     height: 650px;
+}
+
+.readMore{
+    overflow: hidden;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
 }
 
 /****************************** Events Home *******************************/
@@ -336,42 +338,4 @@ span.footerText {
 
 span.createtext {
     font-weight: 600;
-}
-
-/*************************** Secondary Page ***********************************/
-
-.secHeader{
-	height: 250px;
-	width: 100%;
-}
-
-#secContainer {
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	max-width: 1200px;
-}
-
-.secTitle {
-	font-size: 70px;
-	margin-top: -170px;
-	margin-bottom: 95px;
-}
-	
-hr.style-one {
-	margin-bottom: 0;
-	margin-top: -20px;
-    border: 0;
-    height: 2px;
-    background: #333;
-}
-
-.subMain {
-	float: right;
-	width: 80%;
-	display: block-inline;
-}
-
-.subMain img {
-	width: 100%;
 }
