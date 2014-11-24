@@ -29,7 +29,7 @@ a{
 
 h3{
     padding-bottom: 10px;
-    border-bottom: 5px solid #000;
+    border-bottom: 5px solid #1B2A48;
 }
 
 ul{
@@ -224,7 +224,15 @@ a.mainLinks:hover{
 #moreHeadlines{
     background-color: #fff;
     padding: 10px 10px 10px 10px;
-    height: 650px;
+    height: 666px;
+    box-shadow: 1px 1px 5px #333;
+}
+
+.readMore{
+    overflow: hidden;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
 }
 
 .readMore{
@@ -239,6 +247,7 @@ a.mainLinks:hover{
 #events{
     height: 300px;
     width: 100%;
+    border-top: 5px solid #c9c9c9;
 }
 
 
