@@ -180,6 +180,7 @@ a.mainLinks:hover{
 
 #news{
     padding-top: 40px;
+    padding-bottom: 40px;
     position: relative;
     width: 100%;
     background-image: url(../img/newsimg-copy.png);
@@ -208,6 +209,7 @@ a.mainLinks:hover{
     font-size: 13px;
     font-weight: 400;
     font-family: 'Open Sans', Helvetica, sans-serif;
+    color: #fff;
     border-left: 1px solid #000;
 }
 
@@ -224,7 +226,7 @@ a.mainLinks:hover{
 #moreHeadlines{
     background-color: #fff;
     padding: 10px 10px 10px 10px;
-    height: 650px;
+    height: 605px;
 }
 
 .readMore{
