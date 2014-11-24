@@ -1,0 +1,459 @@
+/********************************** Global ***********************************/
+
+body{
+    background-color: #000;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+#container{
+    height: inherit;
+    width: inherit;
+    letter-spacing: 1px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.clear{
+    clear: both;
+}
+
+h3{
+    padding-bottom: 10px;
+    border-bottom: 5px solid #FF9F80;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/****************************** Top Navigation ****************************/
+
+#topNav{
+    position: relative;
+    width: 100%;
+    margin: 0px auto;
+    height: 42px;
+    background-color: #595850;
+    background-image: linear-gradient(#333 0%, #2B2B2B 100%);
+    border-bottom: 1px solid #232323;
+}
+
+#userType{
+    vertical-align: middle;
+    padding-top: 10px;
+    float: left;
+}
+
+#otherLinks{
+    vertical-align: middle;
+    padding-top: 10px;
+    float: right;
+}
+
+.searchText{
+    margin-top: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    float: right;
+}
+
+.searchButton{
+    margin-top: 5px;
+    position: relative;
+    border: 2px solid #207cca;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #207cca;
+    color: #fafafa;
+    font-weight: bold;
+    float: right;
+    margin-right: 20px;
+}
+
+.searchButton:hover{
+    background-color: #5895c9;
+    border-color: #5895c9;
+}
+
+.utWords, .otWords{
+    color: #fff;
+    font-weight: 300;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
+}
+
+a.utWords:link, a.otWords:link{
+    color: #fff;
+}
+
+a.utWords:visited, a.otWords:visited{
+    color: #fff;
+}
+
+a.utWords:hover, a.otWords:hover{
+    text-decoration: none;
+    color: #0DA2DA;
+}
+/****************************** Logo & Main Nav ****************************/
+
+#logoContainer{
+    position: relative;
+    width: inherit;
+    height: 250px;
+    text-align: center;
+    background-color: #1B2A48;
+    background-image: linear-gradient(#2a4375 0%, #1B2A48 100%);
+    border-top: 1px solid #2E497F;
+}
+
+#logo{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#mainNav{
+    position: absolute;
+    text-align: center;
+    width: inherit;
+}
+
+.mainLinks{
+    color: #fff;
+    font-weight: 300;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 18px;
+    font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
+    display: inline-block;
+}
+
+a.mainLinks:link{
+    color: #fff;
+}
+
+a.mainLinks:visited{
+    color: #fff;
+}
+
+a.mainLinks:hover{
+    text-decoration: none;
+    color: #0DA2DA;
+}
+
+/****************************** Title Image ***********************************/
+
+#carouselContainer{
+    position: relative;
+    width: inherit;
+    background-size: contain;
+    background-color: #ccc;
+}
+
+.verticalCenterTitle{
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+    top: 20%;
+}
+
+
+/********************************** News Home *********************************/
+
+#news{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    width: 100%;
+    background-image: url(../img/newsimg-copy.png);
+    background-attachment: fixed;
+    background-repeat: round;
+    background-size: contain;
+}
+
+.textContainer{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title{
+    font-size: 24px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: #DF6948;
+    padding-right: 25px;
+    padding-left: 21.5%;
+    margin-right: 10px;
+}
+
+/*
+.subtitle{
+    padding-left: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: #fff;
+    border-left: 1px solid #000;
+}
+*/
+
+.newsDesc{
+    min-height: 250px;
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+
+.newsImg{
+    width: 100%;
+}
+
+#moreHeadlines{
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+    height: 566px;
+    box-shadow: 1px 1px 5px #333;
+}
+
+.readMore{
+    overflow: hidden;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+
+span.readMore{
+    overflow: hidden;
+    background-color: #fff;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    float: right;
+}
+
+div.dropshadow {
+    box-shadow: 1px 1px 5px #333;
+}
+
+/****************************** Events Home *******************************/
+
+#events {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    border-top: 5px solid #c9c9c9;
+}
+
+#eventsTitle{
+    font-size: 24px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: #DF6948;
+    padding-right: 30px;
+    padding-left: 20%;
+    margin-right: 10px;
+}
+
+#eventsSub{
+    padding-left: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: #000;
+    border-left: 1px solid #000;
+}
+
+.theDate{
+    float: left;
+    padding-bottom: 50px;
+}
+
+.month{
+    font-size: 24px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 0px 30px 5px 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid #000;
+}
+
+.date{
+    font-size: 24px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #ccc;
+    padding: 0px 44px 15px 43px;
+    margin-top: 5px;
+    margin-right: 10px;
+    border: 1px solid #000;
+}
+
+/********************************** Footer ************************************/
+
+#footer{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-image: url(../img/footerimg.png);
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #343436;
+    border-top: 5px solid #c9c9c9;
+    margin: 0 auto;
+    color: white; 
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.social {
+    padding-right: 15px;
+    opacity: 1;
+    filter: none;
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.social:hover {
+    opacity: .5;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+.footerlinks {
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-bottom: 13px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+a.footerlinks:link {
+    text-decoration: none;
+    font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
+    color: #fff;
+}
+
+a.footerlinks:visited {
+    text-decoration: none;
+    color: #fff;
+}
+a.footerlinks:hover {
+    text-decoration: none;
+    color: #0DA2DA;
+}
+
+.footerText {
+    font-family: georgia;
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+span.footerText {
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.border {
+    content: "";
+    display: inline-block;
+    width: 90px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+
+#copyright{
+    padding-top: 20px;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+#createtext {
+    font-size: 11px;
+    padding-bottom: 5px;
+    font-family: 'Open Sans', "Helvetica Neue", helvetica, sans-serif;
+    font-weight: 300;
+}
+
+span.createtext {
+    font-weight: 600;
+}
+
+/*************************** Secondary Page ***********************************/
+
+.secHeader{
+	height: 250px;
+	width: 100%;
+    background-image: url(../img/aboutHeader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.secContainer {
+    position: relative;
+	margin-left: 20%;
+	margin-right: 20%;
+    margin-bottom: 50px;
+    height: inherit;
+	max-width: 1200px;
+    overflow: hidden;
+}
+
+.secTitle {
+	font-size: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+	margin-top: -170px;
+	margin-bottom: 95px;
+}
+	
+hr.style-one {
+	margin-bottom: 0;
+	margin-top: -20px;
+    border: 0;
+    height: 2px;
+    background-color: #1B2A48;
+}
+
+.subMain {
+    clear: right;
+    margin-left: 21em;
+    margin-right: 3em;
+}
+
+.subMain img {
+	width: 100%;
+}
+
+.list{
+    margin-left: 50px;
+}
