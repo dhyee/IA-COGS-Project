@@ -53,9 +53,8 @@
 }
 
 .tabsContainer{
-    padding-top: 0px;
+    padding-top: 20px;
     margin-left: 13%;
-    margin-right: 10%;
     height: inherit;
 }
 
@@ -82,7 +81,7 @@
     display: block;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 400;
-    letter-spacing: 100%;
+    line-height: 150%;
     color: #333;
     padding-left: 20px;
 }
