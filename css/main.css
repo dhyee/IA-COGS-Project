@@ -408,7 +408,7 @@ span.createtext {
 /*************************** Secondary Page ***********************************/
 
 #aboutHeader{
-	height: 250px;
+	height: 300px;
 	width: 100%;
     background-image: url(../img/aboutHeader.png);
     background-size: cover;
@@ -416,7 +416,7 @@ span.createtext {
 }
 
 #academicsHeader{
-    height: 250px;
+    height: 300px;
 	width: 100%;
     background-image: url(../img/academicsHeader.png);
     background-size: cover;
@@ -424,7 +424,7 @@ span.createtext {
 }
 
 #studentsHeader{
-    height: 250px;
+    height: 300px;
 	width: 100%;
     background-image: url(../img/studentHeader.png);
     background-size: cover;
