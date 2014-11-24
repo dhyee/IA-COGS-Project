@@ -29,7 +29,7 @@ a{
 
 h3{
     padding-bottom: 10px;
-    border-bottom: 5px solid #1B2A48;
+    border-bottom: 5px solid #FF9F80;
 }
 
 ul{
@@ -143,6 +143,7 @@ a.utWords:hover, a.otWords:hover{
     padding-left: 25px;
     font-size: 18px;
     font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
+    display: inline-block;
 }
 
 a.mainLinks:link{
@@ -182,7 +183,7 @@ a.mainLinks:hover{
     padding-bottom: 40px;
     position: relative;
     width: 100%;
-    background-image: url(../img/newsimg-copy.png);
+    background-image: url(../img/newsimg-copy2.png);
     background-attachment: fixed;
     background-repeat: round;
     background-size: contain;
@@ -199,8 +200,8 @@ a.mainLinks:hover{
     font-weight: 600;
     color: #fff;
     background-color: #DF6948;
-    padding-right: 40px;
-    padding-left: 20%;
+    padding-right: 25px;
+    padding-left: 21.5%;
     margin-right: 10px;
 }
 
@@ -228,7 +229,7 @@ a.mainLinks:hover{
 #moreHeadlines{
     background-color: #fff;
     padding: 10px 10px 10px 10px;
-    height: 605px;
+    height: 566px;
     box-shadow: 1px 1px 5px #333;
 }
 
