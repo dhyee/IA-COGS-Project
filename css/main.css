@@ -38,8 +38,8 @@ ul{
 }
 
 li{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /****************************** Top Navigation ****************************/
@@ -67,7 +67,7 @@ li{
     float: right;
 }
 
-/*.searchText{
+.searchText{
     margin-top: 5px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -91,7 +91,7 @@ li{
 .searchButton:hover{
     background-color: #5895c9;
     border-color: #5895c9;
-} */
+}
 
 .utWords, .otWords{
     color: #fff;
