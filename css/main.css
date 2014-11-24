@@ -1,7 +1,7 @@
 /********************************** Global ***********************************/
 
 body{
-    background-color: #fff;
+    background-color: #000;
     margin: 0px;
     height: 100%;
     width: 100%;
@@ -29,7 +29,7 @@ a{
 
 h3{
     padding-bottom: 10px;
-    border-bottom: 5px solid #000;
+    border-bottom: 5px solid #1B2A48;
 }
 
 ul{
@@ -180,6 +180,7 @@ a.mainLinks:hover{
 
 #news{
     padding-top: 40px;
+    padding-bottom: 40px;
     position: relative;
     width: 100%;
     background-image: url(../img/newsimg.png);
@@ -208,11 +209,12 @@ a.mainLinks:hover{
     font-size: 13px;
     font-weight: 400;
     font-family: 'Open Sans', Helvetica, sans-serif;
+    color: #fff;
     border-left: 1px solid #000;
 }
 
 .newsDesc{
-    min-height: 300px;
+    min-height: 250px;
     background-color: #fff;
     padding: 10px 10px 10px 10px;
 }
@@ -224,16 +226,73 @@ a.mainLinks:hover{
 #moreHeadlines{
     background-color: #fff;
     padding: 10px 10px 10px 10px;
-    height: 650px;
+    height: 605px;
+    box-shadow: 1px 1px 5px #333;
+}
+
+.readMore{
+    overflow: hidden;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
 }
 
 /****************************** Events Home *******************************/
 
 #events{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
     height: 300px;
     width: 100%;
+    border-top: 5px solid #c9c9c9;
 }
 
+#eventsTitle{
+    font-size: 24px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #ccc;
+    padding-right: 50px;
+    padding-left: 30px;
+    margin-right: 10px;
+}
+
+#eventsSub{
+    padding-left: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: #000;
+    border-left: 1px solid #000;
+}
+
+.theDate{
+    float: left;
+    padding-bottom: 50px;
+}
+
+.month{
+    font-size: 24px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 0px 30px 5px 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid #000;
+}
+
+.date{
+    font-size: 24px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #ccc;
+    padding: 0px 44px 15px 43px;
+    margin-top: 5px;
+    margin-right: 10px;
+    border: 1px solid #000;
+}
 
 /********************************** Footer ************************************/
 
@@ -335,16 +394,38 @@ span.createtext {
 
 /*************************** Secondary Page ***********************************/
 
-.secHeader{
+#aboutHeader{
 	height: 250px;
 	width: 100%;
+    background-image: url(../img/aboutHeader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-#secContainer {
-	margin-left: auto;
-	margin-right: auto;
+#academicsHeader{
+    height: 250px;
 	width: 100%;
+    background-image: url(../img/academicsHeader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#studentsHeader{
+    height: 250px;
+	width: 100%;
+    background-image: url(../img/studentHeader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.secContainer {
+    position: relative;
+	margin-left: 20%;
+	margin-right: 20%;
+    margin-bottom: 50px;
+    height: inherit;
 	max-width: 1200px;
+    overflow: hidden;
 }
 
 #secContainer ul {
@@ -384,6 +465,8 @@ span.createtext {
 
 .secTitle {
 	font-size: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
 	margin-top: -170px;
 	margin-bottom: 95px;
 }
@@ -393,15 +476,26 @@ hr.style-one {
 	margin-top: -20px;
     border: 0;
     height: 2px;
-    background: #333;
+    background-color: #1B2A48;
 }
 
+<<<<<<< HEAD
 .secMain {
 	float: right;
 	width: 75%;
 	display: block-inline;
+=======
+.subMain {
+    clear: right;
+    margin-left: 21em;
+    margin-right: 3em;
+>>>>>>> 485eac8a6ea0227ca02b0a3bc2317aebed14c600
 }
 
 .secMain img {
 	width: 100%;
+}
+
+.list{
+    margin-left: 50px;
 }
