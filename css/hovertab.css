@@ -26,10 +26,10 @@
 	padding: 10px 25px 10px 25px; 
 	position: relative;
 	overflow: hidden;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .tabs a:after {
@@ -53,12 +53,13 @@
 }
 
 .tabsContainer{
-    padding-top: 12px;
-    margin-left: 10%;
+    padding-top: 0px;
+    margin-left: 13%;
     margin-right: 10%;
     height: inherit;
 }
 
+/*
 .bottomCrumb{
     position: absolute;
     width: inherit;
@@ -72,15 +73,46 @@
     font-weight: bold;
     font-size: 2em;
 }
+*/
+.imgLeft {
+    float: left;
+}
 
-.leftImg{
-    float: right;
-    padding-right: 20px;
+.leftText {
+    display: block;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 100%;
+    color: #333;
+    padding-left: 20px;
 }
 
 .leftLinks{
-    font-size: 1.5em;
-    padding-top: 20px;
+    font-size: 16px;
     height: inherit;
     text-align: left;
+}
+
+.leftLinks a {
+    text-decoration: none;
+    font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.leftLinks a:link {
+    color: #DF6948;
+    text-decoration: none;
+}
+
+.leftLinks a:visited {
+    color: #DF6948;
+    text-decoration: none;
+}
+
+.leftLinks a:hover {
+    color: #2a4375;
+    text-decoration: none;
 }
