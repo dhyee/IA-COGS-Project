@@ -394,10 +394,26 @@ span.createtext {
 
 /*************************** Secondary Page ***********************************/
 
-.secHeader{
+#aboutHeader{
 	height: 250px;
 	width: 100%;
     background-image: url(../img/aboutHeader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#academicsHeader{
+    height: 250px;
+	width: 100%;
+    background-image: url(../img/academicsHeader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#studentsHeader{
+    height: 250px;
+	width: 100%;
+    background-image: url(../img/studentsHeader.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
