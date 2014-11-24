@@ -52,7 +52,7 @@ a{
     float: right;
 }
 
-.searchText{
+/*.searchText{
     margin-top: 5px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -76,7 +76,7 @@ a{
 .searchButton:hover{
     background-color: #5895c9;
     border-color: #5895c9;
-}
+} */
 
 .utWords, .otWords{
     color: #fff;
@@ -177,8 +177,9 @@ a.mainLinks:hover{
 }
 
 .title{
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 600;
     background-color: #fff;
     padding-right: 50px;
     padding-left: 30px;
@@ -187,7 +188,9 @@ a.mainLinks:hover{
 
 .subtitle{
     padding-left: 20px;
-    font-size: 1.3em;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', Helvetica, sans-serif;
     border-left: 1px solid #000;
 }
 
@@ -214,13 +217,88 @@ a.mainLinks:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #343436;
-    border-top: 5px solid #ccc;
+    border-top: 5px solid #c9c9c9;
     margin: 0 auto;
     color: white; 
     text-align: center;
     letter-spacing: 2px;
 }
 
+.social {
+    padding-right: 15px;
+    opacity: 1;
+    filter: none;
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.social:hover {
+    opacity: .5;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+.footerlinks {
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-bottom: 13px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+a.footerlinks:link {
+    text-decoration: none;
+    font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
+    color: #fff;
+}
+
+a.footerlinks:visited {
+    text-decoration: none;
+    color: #fff;
+}
+a.footerlinks:hover {
+    text-decoration: none;
+    color: #0DA2DA;
+}
+
+.footerText {
+    font-family: georgia;
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+span.footerText {
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.border {
+    content: "";
+    display: inline-block;
+    width: 90px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+
 #copyright{
-    padding-top: 300px;
+    padding-top: 20px;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+#createtext {
+    font-size: 11px;
+    padding-bottom: 5px;
+    font-family: 'Open Sans', "Helvetica Neue", helvetica, sans-serif;
+    font-weight: 300;
+}
+
+span.createtext {
+    font-weight: 600;
 }
