@@ -4824,7 +4824,7 @@ a.thumbnail.active {
 .list-group {
   width: 15%
   display: block-inline;
-  border-top: 3px solid black;
+  border-top: 4px solid #1B2A48;
   float: left;
   padding-left: 0;
   text-align: left;

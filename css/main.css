@@ -402,15 +402,21 @@ span.createtext {
     background-repeat: no-repeat;
 }
 
-#secContainer {
-	margin-left: auto;
-	margin-right: auto;
+.secContainer {
+    position: relative;
+	margin-left: 20%;
+	margin-right: 20%;
+    margin-bottom: 50px;
 	width: 100%;
+    height: inherit;
 	max-width: 1200px;
+    overflow: hidden;
 }
 
 .secTitle {
 	font-size: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
 	margin-top: -170px;
 	margin-bottom: 95px;
 }
@@ -420,7 +426,7 @@ hr.style-one {
 	margin-top: -20px;
     border: 0;
     height: 2px;
-    background: #333;
+    background-color: #1B2A48;
 }
 
 .subMain {
@@ -433,4 +439,8 @@ hr.style-one {
 
 .subMain img {
 	width: 100%;
+}
+
+.list{
+    margin-left: 50px;
 }
