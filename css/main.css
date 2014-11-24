@@ -63,7 +63,6 @@ li{
 #otherLinks{
     vertical-align: middle;
     padding-top: 10px;
-    padding-right: 20px;
     float: right;
 }
 
@@ -96,8 +95,8 @@ li{
 .utWords, .otWords{
     color: #fff;
     font-weight: 300;
-    padding-right: 23px;
-    padding-left: 23px;
+    padding-right: 15px;
+    padding-left: 15px;
     font-size: 14px;
     font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
 }
@@ -198,12 +197,14 @@ a.mainLinks:hover{
     font-size: 24px;
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 600;
-    background-color: #fff;
-    padding-right: 50px;
-    padding-left: 30px;
+    color: #fff;
+    background-color: #DF6948;
+    padding-right: 40px;
+    padding-left: 20%;
     margin-right: 10px;
 }
 
+/*
 .subtitle{
     padding-left: 20px;
     font-size: 13px;
@@ -212,6 +213,7 @@ a.mainLinks:hover{
     color: #fff;
     border-left: 1px solid #000;
 }
+*/
 
 .newsDesc{
     min-height: 250px;
@@ -237,9 +239,21 @@ a.mainLinks:hover{
     padding: 10px 10px 10px 10px;
 }
 
+span.readMore{
+    overflow: hidden;
+    background-color: #fff;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    float: right;
+}
+
+div.dropshadow {
+    box-shadow: 1px 1px 5px #333;
+}
+
 /****************************** Events Home *******************************/
 
-#events{
+#events {
     padding-top: 40px;
     padding-bottom: 40px;
     position: relative;
@@ -252,9 +266,10 @@ a.mainLinks:hover{
     font-size: 24px;
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 600;
-    background-color: #ccc;
-    padding-right: 50px;
-    padding-left: 30px;
+    color: #fff;
+    background-color: #DF6948;
+    padding-right: 30px;
+    padding-left: 20%;
     margin-right: 10px;
 }
 
