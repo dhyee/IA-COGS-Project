@@ -407,7 +407,6 @@ span.createtext {
 	margin-left: 20%;
 	margin-right: 20%;
     margin-bottom: 50px;
-	width: 100%;
     height: inherit;
 	max-width: 1200px;
     overflow: hidden;
@@ -430,11 +429,9 @@ hr.style-one {
 }
 
 .subMain {
-	float: right;
-    width: 75%;
-    margin-left: 2em; 
-    margin-right: 2em;
-	display: block-inline;
+    clear: right;
+    margin-left: 21em;
+    margin-right: 3em;
 }
 
 .subMain img {
@@ -443,4 +440,8 @@ hr.style-one {
 
 .list{
     margin-left: 50px;
+}
+
+.left{
+    height: inherit:
 }

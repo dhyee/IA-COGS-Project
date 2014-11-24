@@ -4828,13 +4828,13 @@ a.thumbnail.active {
   float: left;
   padding-left: 0;
   text-align: left;
-  padding-right: 
 }
 .list-group-item {
   position: relative;
   display: block;
-  padding: 10px 50px;
+  padding: 10px 5px;
   margin-bottom: -1px;
+  width: 250px;
   background-color: #fff;
   border: 1px solid #ddd;
   font-size: 16px;
