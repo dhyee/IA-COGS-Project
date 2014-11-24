@@ -290,7 +290,7 @@ div.dropshadow {
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 600;
     color: #fff;
-    background-color: #DF6948;
+    background-color: #DF6948; /*orange*/
     padding-right: 30px;
     padding-left: 20%;
     margin-right: 10px;
