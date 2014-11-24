@@ -1771,6 +1771,8 @@ pre code {
   }
   .col-md-4 {
     width: 33.33333333%;
+    padding-right: 40px;
+    margin-top: 40px;
   }
   .col-md-3 {
     width: 25%;

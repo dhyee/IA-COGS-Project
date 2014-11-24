@@ -239,10 +239,53 @@ a.mainLinks:hover{
 /****************************** Events Home *******************************/
 
 #events{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
     height: 300px;
     width: 100%;
 }
 
+#eventsTitle{
+    font-size: 24px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #ccc;
+    padding-right: 50px;
+    padding-left: 30px;
+    margin-right: 10px;
+}
+
+#eventsSub{
+    padding-left: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: #000;
+    border-left: 1px solid #000;
+}
+
+.month{
+    font-size: 24px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 5px 30px 0px 30px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    border: 1px solid #000;
+}
+
+.date{
+    font-size: 24px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #ccc;
+    padding: 0px 44px 5px 43px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border: 1px solid #000;
+}
 
 /********************************** Footer ************************************/
 
