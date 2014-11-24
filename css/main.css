@@ -227,7 +227,7 @@ a.mainLinks:hover{
     width: 100%;
 }
 
-#moreHeadlines{
+.moreHeadlines{
     background-color: #fff;
     padding: 10px 10px 10px 10px;
     height: 566px;
@@ -241,12 +241,33 @@ a.mainLinks:hover{
     padding: 10px 10px 10px 10px;
 }
 
-span.readMore{
+span.moreHeadlines{
     overflow: hidden;
     background-color: #fff;
     width: 100%;
     padding: 0px 0px 0px 0px;
     float: right;
+}
+
+a.Headlines {
+    text-decoration: none;
+    font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
+    font-weight: 300;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    color: #0DA2DA;
+}
+
+a.Headlines:visited {
+    text-decoration: none;
+    color: #0DA2DA;
+}
+
+a.Headlines:hover {
+    text-decoration: none;
+    color: red;
 }
 
 div.dropshadow {
