@@ -27,6 +27,21 @@ a{
     clear: both;
 }
 
+h3{
+    padding-bottom: 10px;
+    border-bottom: 5px solid #000;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 /****************************** Top Navigation ****************************/
 
 #topNav{
@@ -167,8 +182,10 @@ a.mainLinks:hover{
     padding-top: 40px;
     position: relative;
     width: 100%;
+    background-image: url(../img/newsimg.png);
+    background-attachment: fixed;
+    background-repeat: round;
     background-size: contain;
-    background: #999;
 }
 
 .textContainer{
@@ -177,8 +194,9 @@ a.mainLinks:hover{
 }
 
 .title{
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 600;
     background-color: #fff;
     padding-right: 50px;
     padding-left: 30px;
@@ -187,12 +205,26 @@ a.mainLinks:hover{
 
 .subtitle{
     padding-left: 20px;
-    font-size: 1.3em;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', Helvetica, sans-serif;
     border-left: 1px solid #000;
 }
 
 .newsDesc{
+    min-height: 300px;
     background-color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+
+.newsImg{
+    width: 100%;
+}
+
+#moreHeadlines{
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+    height: 650px;
 }
 
 /****************************** Events Home *******************************/
@@ -210,19 +242,95 @@ a.mainLinks:hover{
     width: 100%;
     height: 350px;
     background-image: url(../img/footerimg.png);
-    background-position: center;
+    background-position: bottom;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-color: #343436;
-    border-top: 5px solid #ccc;
+    border-top: 5px solid #c9c9c9;
     margin: 0 auto;
     color: white; 
     text-align: center;
     letter-spacing: 2px;
 }
 
+.social {
+    padding-right: 15px;
+    opacity: 1;
+    filter: none;
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.social:hover {
+    opacity: .5;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+.footerlinks {
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-bottom: 13px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+a.footerlinks:link {
+    text-decoration: none;
+    font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
+    color: #fff;
+}
+
+a.footerlinks:visited {
+    text-decoration: none;
+    color: #fff;
+}
+a.footerlinks:hover {
+    text-decoration: none;
+    color: #0DA2DA;
+}
+
+.footerText {
+    font-family: georgia;
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+span.footerText {
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.border {
+    content: "";
+    display: inline-block;
+    width: 90px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+
 #copyright{
-    padding-top: 300px;
+    padding-top: 20px;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+#createtext {
+    font-size: 11px;
+    padding-bottom: 5px;
+    font-family: 'Open Sans', "Helvetica Neue", helvetica, sans-serif;
+    font-weight: 300;
+}
+
+span.createtext {
+    font-weight: 600;
 }
 
 /*************************** Secondary Page ***********************************/
