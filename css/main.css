@@ -384,6 +384,11 @@ span.eventsHeader {
     border-bottom: 2px solid #FF9F80;
 }
 
+span.glyphiconStyle {
+    font-size: 10px;
+    color: #666;
+}
+
 /********************************** Footer ************************************/
 
 #footer{
