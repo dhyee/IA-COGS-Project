@@ -441,6 +441,41 @@ span.createtext {
     overflow: hidden;
 }
 
+#secContainer ul {
+	width: 20%;
+	float: left;
+	border-top: 2px solid black;
+}
+
+#secContainer ul li {
+	font-size: 16px;
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 10px 15px;
+	background-color: #f5f5f5;
+}
+
+#secContainer ul li.active {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 10px 15px;
+	background-color: lightblue;
+}
+
+#secContainer ul li ul {
+	width: auto;
+	border: 0;
+}
+
+#secContainer ul li ul li {
+	background-color: lightblue;
+}
+#secContainer ul li ul li.active {
+	background-color: blue;
+}
+
 .secTitle {
 	font-size: 70px;
     margin-left: 20%;
@@ -457,13 +492,20 @@ hr.style-one {
     background-color: #1B2A48;
 }
 
+<<<<<<< HEAD
+.secMain {
+	float: right;
+	width: 75%;
+	display: block-inline;
+=======
 .subMain {
     clear: right;
     margin-left: 21em;
     margin-right: 3em;
+>>>>>>> 485eac8a6ea0227ca02b0a3bc2317aebed14c600
 }
 
-.subMain img {
+.secMain img {
 	width: 100%;
 }
 
