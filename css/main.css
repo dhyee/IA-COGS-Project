@@ -144,7 +144,9 @@ a.utWords:hover, a.otWords:hover{
     font-size: 18px;
     font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
     padding-bottom: 15px;
-    margin: 0 auto;
+    margin: 0;
+	margin-left: -2px;
+	margin-right: -3px;
 }
 
 a.mainLinks:link{
@@ -299,7 +301,8 @@ div.dropshadow {
 }
 
 .eventsSub{
-    padding-left: 15px;
+  
+  padding-left: 15px;
     font-size: 13px;
     font-weight: 300;
     font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
