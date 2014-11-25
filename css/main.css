@@ -278,6 +278,8 @@ div.dropshadow {
     padding-bottom: 40px;
     position: relative;
     background-size: contain;
+    height: 397px;
+    background-color: #F5FCFF;
     width: 100%;
     border-top: 5px solid #c9c9c9;
 }
