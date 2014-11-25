@@ -519,6 +519,22 @@ span.createtext {
     background-repeat: no-repeat;
 }
 
+#studentLifeHeader{
+    height: 300px;
+	width: 100%;
+    background-image: url(../img/studentlifeHeader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#housingHeader{
+    height: 300px;
+	width: 100%;
+    background-image: url(../img/housingHeader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .secContainer {
     position: relative;
 	margin-left: 20%;
