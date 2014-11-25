@@ -37,7 +37,7 @@ ul{
     padding-left: 0;
 }
 
-.headline{
+.spacing{
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -199,9 +199,10 @@ a.mainLinks:hover{
     font-weight: 600;
     color: #fff;
     background-color: #DF6948;
-    padding-right: 40px;
-    padding-left: 20%;
+    padding-right: 25px;
+    padding-left: 21.5%;
     margin-right: 10px;
+    box-shadow: 1px 1px 5px #333;
 }
 /*
 .subtitle{
@@ -223,7 +224,7 @@ a.mainLinks:hover{
     width: 100%;
 }
 
-#moreHeadlines{
+.moreHeadlines{
     background-color: #fff;
     padding: 10px 10px 10px 10px;
     height: 605px;
@@ -237,12 +238,33 @@ a.mainLinks:hover{
     padding: 10px 10px 10px 10px;
 }
 
-span.readMore{
+span.moreHeadlines{
     overflow: hidden;
     background-color: #fff;
     width: 100%;
     padding: 0px 0px 0px 0px;
     float: right;
+}
+
+a.Headlines {
+    text-decoration: none;
+    font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
+    font-weight: 300;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    color: #0DA2DA;
+}
+
+a.Headlines:visited {
+    text-decoration: none;
+    color: #0DA2DA;
+}
+
+a.Headlines:hover {
+    text-decoration: none;
+    color: red;
 }
 
 div.dropshadow {
@@ -251,11 +273,11 @@ div.dropshadow {
 
 /****************************** Events Home *******************************/
 
-#events{
+#event{
     padding-top: 40px;
     padding-bottom: 40px;
     position: relative;
-    height: 300px;
+    background-size: contain;
     width: 100%;
     border-top: 5px solid #c9c9c9;
 }
@@ -269,42 +291,100 @@ div.dropshadow {
     padding-right: 30px;
     padding-left: 20%;
     margin-right: 10px;
+    box-shadow: 1px 1px 5px #b0b0b0;
 }
 
-#eventsSub{
-    padding-left: 20px;
+.eventsSub{
+    padding-left: 15px;
     font-size: 13px;
-    font-weight: 400;
-    font-family: 'Open Sans', Helvetica, sans-serif;
-    color: #000;
-    border-left: 1px solid #000;
+    font-weight: 300;
+    font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
+    display: inline-block;
+    color: #0DA2DA;
+    border-left: 2px solid #0DA2DA;
 }
 
 .theDate{
     float: left;
     padding-bottom: 50px;
+    margin-top: 2%;
+    padding-right: 10px;
 }
 
 .month{
-    font-size: 24px;
+    font-size: 21px;
     font-family: 'Open Sans', Helvetica, sans-serif;
-    font-weight: 600;
-    background-color: #fff;
-    padding: 0px 30px 5px 30px;
-    margin-top: 10px;
-    margin-right: 10px;
-    border: 1px solid #000;
+    font-weight: 300;
+    color: #fff;
+    background-color: #5bc0de;
+    border: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 75px;
 }
 
 .date{
-    font-size: 24px;
+    font-size: 21px;
     font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 300;
+    color: #fff;
+    background-color: #1B2A48;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 75px;
+}
+
+.events {
+    display: block;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    width: 350px;
+    height: 100px;
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 14px;
+    box-shadow: 1px 1px 5px #c9c9c9;
+}
+
+a.events {
+    text-decoration: none;
+    font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
+    font-weight: 300;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    color: #0DA2DA;
+}
+
+.events a:visited {
+    text-decoration: none;
+    color: #0DA2DA;
+}
+
+a.events:hover {
+    text-decoration: none;
+    background-color: #FFAB91;
+    color: #fff;
+}
+
+span.eventsHeader {
     font-weight: 600;
-    background-color: #ccc;
-    padding: 0px 44px 15px 43px;
-    margin-top: 5px;
-    margin-right: 10px;
-    border: 1px solid #000;
+    font-size: 18px;
+    border-bottom: 2px solid #FF9F80;
+}
+
+
+span.glyphiconStyle {
+    font-size: 10px;
+    color: #666;
 }
 
 /********************************** Footer ************************************/
@@ -420,6 +500,7 @@ span.createtext {
 	width: 100%;
     background-image: url(../img/academicsHeader.png);
     background-size: cover;
+    
     background-repeat: no-repeat;
 }
 
