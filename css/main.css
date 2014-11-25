@@ -143,6 +143,8 @@ a.utWords:hover, a.otWords:hover{
     padding-left: 25px;
     font-size: 18px;
     font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
+    padding-bottom: 15px;
+    margin: 0 auto;
 }
 
 a.mainLinks:link{
