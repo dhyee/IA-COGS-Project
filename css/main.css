@@ -660,9 +660,9 @@ a.activeLink:link, a.activeLink:visited, a.activeLink:hover{
 
 #subLink{
     padding-left: 50px;
-    color: #fff;
-    background-color: #5bc0de;
+    color: #333;
     text-decoration: none;
+    font-weight: bold;
     position: relative;
     display: block;
     margin-bottom: -1px;
@@ -673,4 +673,5 @@ a.activeLink:link, a.activeLink:visited, a.activeLink:hover{
 }
 
 a.subLink:link, a.subLink:visited, a.subLink:hover{
+    background-color: #efefef;
 }
