@@ -230,8 +230,9 @@ a.mainLinks:hover{
 
 .moreHeadlines{
     background-color: #fff;
+    min-height: 605px;
+    background-size: contain;
     padding: 10px 10px 10px 10px;
-    height: 564px;
     box-shadow: 1px 1px 5px #333;
 }
 
